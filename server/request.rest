@@ -1,0 +1,11 @@
+POST http://localhost:6001/register/employee
+Content-Type: application/json
+
+{
+   
+    "fullName" : "sunitha ch",
+    "email" : "sunitha.ch@enfuse-solutions.com",
+    "password": "emp123",
+    "confirmPassword": "emp123",
+    "role": "Employee"
+}

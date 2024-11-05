@@ -1,0 +1,88 @@
+.start-page{
+  background-image: url('./Assets/employee.jpg');
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-size: cover;
+}
+
+button{
+  font-size: 20px;
+  padding: 10px 20px 10px 30px;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    float: center;
+    margin: 5px 10px 5px 5px;
+    background: linear-gradient(to right, #0a6ca9ce 0%, #18d6e0 100%);
+    cursor: pointer;
+   
+    text-align: center;
+}
+
+button:hover{
+  font-weight: bold;
+}
+
+.start-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* Main layout */
+
+.main-section {
+  flex: 3;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+.announcements-section {
+
+  padding: 15px;
+  border: 1px solid #333;
+}
+
+.announcement-box {
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.post-section {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #333;
+}
+
+.post-section h3 {
+  font-size: 16px;
+}
+
+.post-section input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+.sidePanel {
+  flex: 1;
+ 
+  padding: 10px;
+}
+
+.sidePanel .ant-collapse-header {
+  font-weight: bold;
+}
+
+.wishes-section {
+  color: red;
+}
+
+.wish-item {
+  margin: 5px 0;
+}
+
